@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -23,6 +23,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'text-hockey': '#131318',
                     }
                 }
             }
@@ -30,7 +31,7 @@
     </script>
     <!-- Manrope Font -->
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
     </style>
@@ -38,10 +39,99 @@
 
 <body class="font-manrope">
     <header class="container mx-auto w-4/5">
+        <!-- Slideshow -->
+        <div class="carousel relative w-full mt-4">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+                <div class="hidden lg:block p-8 bg-[#131318] absolute bottom-8 right-8 rounded-lg lg:w-[566px]">
+                    <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-base text-gray-400 font-medium">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+                <div class="hidden lg:block p-8 bg-[#131318] absolute bottom-8 right-8 rounded-lg lg:w-[566px]">
+                    <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-base text-gray-400 font-medium">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+                <div class="hidden lg:block p-8 bg-[#131318] absolute bottom-8 right-8 rounded-lg lg:w-[566px]">
+                    <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-base text-gray-400 font-medium">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </div>
 
+        <!-- Meet Heroes section for small device -->
+        <div class="mt-4 block md:hidden lg:hidden p-4 bg-[#131318] mb-6 rounded-lg">
+            <h3 class="text-base text-white font-extrabold">Meet all the heroes from the field</h3>
+            <p class="text-sm text-gray-400 font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
     </header>
-    <main>
+    <main class="container mx-auto w-4/5">
+        <!-- Professional Hockey Club Section -->
+        <section>
+            <div class="border-dashed border-y-2 text-hockey py-4 lg:py-8 mb-6 lg:mb-12">
+                <h3 class="text-2xl lg:text-4xl text-center font-extrabold mb-6">Professional Hockeys Club</h3>
+                <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="flex gap-6 flex-col lg:flex-row">
+                <div class="space-y-5 text-center">
+                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="space-y-5 text-center">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                    <h3 class="text-xl font-semibold">Experienced Coach</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="space-y-5 text-center">
+                    <div class="radial-progress text-amber-400" style="--value:95;" role="progressbar">95%</div>
+                    <h3 class="text-xl font-semibold">Senior Player</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="space-y-5 text-center">
+                    <div class="radial-progress text-sky-600" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="text-xl font-semibold">Training Ground</h3>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Program Section -->
+        <section class="mt-24 mb-12">
+            <div class="border-dashed border-y-2 text-hockey py-4 lg:py-8 mb-6 lg:mb-12">
+                <h3 class="text-2xl lg:text-4xl text-center font-extrabold mb-6">Program Sections</h3>
+                <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div>
+                <div>
+                    <div class="h-96 bg-[linear-gradient(45 deg,rgba(0,0,0,0.4),rgba(0,0,0,1),url('Images/2.png'))]">
 
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
