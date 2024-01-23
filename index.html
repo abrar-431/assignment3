@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8acb55f018.js" crossorigin="anonymous"></script>
+
     <!-- Manrope Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,17 +120,260 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Program Section -->
         <section class="mt-24 mb-12">
             <div class="border-dashed border-y-2 text-hockey py-4 lg:py-8 mb-6 lg:mb-12">
                 <h3 class="text-2xl lg:text-4xl text-center font-extrabold mb-6">Program Sections</h3>
-                <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div>
-                <div>
-                    <div class="h-96 bg-[linear-gradient(45 deg,rgba(0,0,0,0.4),rgba(0,0,0,1),url('Images/2.png'))]">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div
+                    class="bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('Images/2.png')] p-6 lg:p-10 lg:pt-24 text-white space-y-3 lg:space-y-5 rounded-lg">
+                    <h3 class="text-xl lg:text-3xl font-extrabold">Junior Program</h3>
+                    <p class="text-sm lg:text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="btn bg-red-500 border-none text-white"> Register Now!</button>
+                </div>
+                <div
+                    class="lg:bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('Images/3.png')] p-6 lg:p-10 lg:pt-24 text-white space-y-3 lg:space-y-5 rounded-lg">
+                    <h3 class="text-xl lg:text-3xl font-extrabold">Teenager Program</h3>
+                    <p class="text-sm lg:text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="btn bg-red-500 border-none text-white"> Register Now!</button>
+                </div>
+                <div
+                    class="lg:bg-cover bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('Images/4.png')] p-6 lg:col-span-2 lg:p-10 lg:pt-52 lg:pr-96 text-white space-y-3 lg:space-y-5 rounded-lg">
+                    <h3 class="text-xl lg:text-3xl font-extrabold">Teenager Program</h3>
+                    <p class="text-sm lg:text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="btn bg-red-500 border-none text-white"> Register Now!</button>
+                </div>
+            </div>
+        </section>
 
+        <!-- New Products Section -->
+        <section>
+            <div class="border-dashed border-y-2 text-hockey py-4 lg:py-8 mb-6 lg:mb-12">
+                <h3 class="text-2xl lg:text-4xl text-center font-extrabold mb-6">Program Sections</h3>
+                <p class="text-center w-2/3 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis placerat
+                    dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- Card Items -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Card 1 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/5.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/6.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/7.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/8.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/9.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row items-start border-2 border-gray-300 rounded-xl gap-2">
+                        <img src="Images/10.png" class="rounded-lg shadow-2xl mx-auto" />
+                        <div>
+                            <div class="flex gap-4">
+                                <!-- Favourite Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <p class="text-#13131880 text-base">5.00</p>
+                                </div>
+                                <!-- Eye Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p class="text-#13131880 text-base">20</p>
+                                </div>
+                                <!-- Heart Icon -->
+                                <div class="flex gap-2 items-center">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p class="text-#13131880 text-base">200</p>
+                                </div>
+                            </div>
+                            <h1 class="text-xl font-extrabold my-2">World Cup Flags Football</h1>
+                            <p class="mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex gap-2">
+                                <p class="text-base font-extrabold text-[#FF4240]">Price - $22.00</p>
+                                <!-- Cart -->
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
